@@ -9,4 +9,4 @@ icon = https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons
 hostname = api.bilibili.com
 
 [Script]
-http-response ^https:\/\/api\.bilibili\.com\/x\/player\/playurl script-path=https://你的域名/bili_skip_engine.js, requires-body=true, timeout=20
+http-response ^https:\/\/api\.bilibili\.com\/x\/player\/playurl script-path=https://raw.githubusercontent.com/ahao15800/loon/refs/heads/main/bili_skip_engine.js, requires-body=true, timeout=20
