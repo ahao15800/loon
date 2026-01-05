@@ -1,0 +1,12 @@
+[General]
+name = Bilibili Sponsor Skip (iOS)
+desc = iOS 官方 B 站客户端自动跳过 UP 商单广告（工程级，安全剪裁）
+version = 2.0.0
+author = ChatGPT
+icon = https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/bilibili.svg
+
+[MITM]
+hostname = api.bilibili.com
+
+[Script]
+http-response ^https:\/\/api\.bilibili\.com\/x\/player\/playurl script-path=https://你的域名/bili_skip_engine.js, requires-body=true, timeout=20
